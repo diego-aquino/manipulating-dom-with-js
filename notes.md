@@ -86,3 +86,24 @@
   - ```.removeAttribute()```
 
 ---
+
+## Eventos:
+```.addEventListener(<type>, <callback>)```
+
+  - ```'load'```
+  - ```'click'```
+  - ```'scroll'```
+  - ```'keydown'```
+  - ```'change'```
+  - ```'submit'```
+
+- ```event```
+
+  - ```.target```: quem disparou o evento
+    - ```.id```
+    - ```.className```
+
+  - ```.type```
+  - ```.clientX / clientY``` (relativo ao document)
+  - ```.offsetX / offsetY``` (relativo ao element)
+  - ```.preventDefault()``` (relativo ao element)
